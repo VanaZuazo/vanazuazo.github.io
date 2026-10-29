@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Silvana Guardia :: Mi perfil</title>
+  <meta name="description" content="Portafolio de Silvana Guardia: desarrollo web, UX/UI y programación.">
+  <link rel="icon" href="img/avatar-cara.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div class="sitio">
+
+  <header>
+    <div class="barra-sup">
+      <div class="envoltura">
+        <div class="logo">silvi<span>5</span></div>
+        <form class="buscador" id="buscador"><label for="buscar">Buscar:</label><input id="buscar" type="text"><button type="submit">Ir</button></form>
+        <div class="bienvenida">Bienvenid@, <b>visitante</b></div>
+      </div>
+    </div>
+    <nav class="pestanas" aria-label="Secciones del perfil"><div class="envoltura">
+      <a href="index.html" data-pestana="perfil" class="is-activa" aria-current="page">Perfil</a><a href="proyectos.html" data-pestana="proyectos">Proyectos</a><a href="servicios.html" data-pestana="servicios">Servicios</a><a href="https://vanacode.neocities.org/" data-enlace="neocities" target="_blank" rel="noopener">Notas ↗</a>
+    </div></nav>
+  </header>
+
+
+  <main class="envoltura vista">
+
+    <div class="titulo-perfil"><h1>Silvana :: Mi perfil</h1><small>(427 visitas)</small></div>
+
+    <section class="columnas">
+
+      <div class="col col--izq">
+        <div>
+          <div class="foto-perfil"><img src="img/avatar-cara.png" alt="Avatar de Silvana"></div>
+          <a class="ver-fotos" href="proyectos.html">Ver mis 8 proyectos</a>
+        </div>
+        <ul class="acciones">
+          <li><a href="servicios.html"><span class="icono">$</span>Contratarme</a></li>
+          <li><button type="button" data-abrir-chat><span class="icono">@</span>Enviar mensaje</button></li>
+          <li><a href="proyectos.html"><span class="icono">★</span>Ver proyectos</a></li>
+          <li><a href="https://vanacode.neocities.org/" data-enlace="neocities" target="_blank" rel="noopener"><span class="icono">✎</span>Leer mis notas</a></li>
+        </ul>
+        <div class="redes">
+          <p class="subtitulo">Mis redes</p>
+          <div class="redes__lista">
+            <a class="red" href="https://www.behance.net/VanaCode" data-enlace="behance" target="_blank" rel="noopener">Behance</a>
+            <a class="red" href="https://github.com/VanaZuazo/" data-enlace="github" target="_blank" rel="noopener">GitHub</a>
+            <a class="red" href="https://www.instagram.com/vana.code" data-enlace="instagram" target="_blank" rel="noopener">Instagram</a>
+            <a class="red" href="https://www.tiktok.com/@vana.code" data-enlace="tiktok" target="_blank" rel="noopener">TikTok</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col--centro">
+        <div class="url"><b id="url-sitio">vanazuazo.github.io</b> · <button type="button" class="enlace-boton" id="copiar-url">Mándasela a tus amigos</button> <span class="copiado" id="copiado" hidden>¡Copiado!</span></div>
+        <div class="estado">Estado: <b id="estado-texto">Ausente (programando)</b> · <button type="button" id="cambiar-estado">cambiar</button></div>
+        <dl class="datos">
+          <div class="dato"><dt>Rol / Estado</dt><dd>Desarrollo web y UX/UI / Disponible para freelance</dd></div>
+          <div class="dato"><dt>Ubicación</dt><dd>Lima, Perú</dd></div>
+          <div class="dato"><dt>Hago</dt><dd>Webs, apps pequeñas e interfaces</dd></div>
+          <div class="dato"><dt>Ahora mismo</dt><dd>CodeTober y este portafolio</dd></div>
+          <div class="dato dato--ancho"><dt>Buscando</dt><dd>Proyectos donde haya un problema real que resolver, no solo una web bonita</dd></div>
+        </dl>
+        <div>
+          <p class="subtitulo">Herramientas favoritas</p>
+          <div class="herramientas">
+            <span class="herramienta">HTML</span><span class="herramienta">CSS</span><span class="herramienta">JS</span><span class="herramienta">Figma</span><span class="herramienta">Elec<br>tron</span><span class="herramienta">Git</span>
+          </div>
+        </div>
+        <p class="frase">Construyo cosas digitales y documento el proceso, aunque todavía no me sienta lista.</p>
+        <div class="acerca">
+          <div>
+            <p class="subtitulo">Acerca de mí</p>
+            <p>Diseño y programo interfaces. Me gusta encontrar qué está fallando en una web o una app y pensar cómo arreglarlo. Extraño cuando internet era más raro y más personal, por eso este perfil se ve así.</p>
+          </div>
+          <div>
+            <p class="subtitulo">Intereses</p>
+            <div class="intereses"><span>UX/UI</span><span>Frontend</span><span>Animaciones web</span><span>Videojuegos indie</span><span>Rediseños</span><span>Internet de los 2000</span><span>Libros</span></div>
+          </div>
+          <div class="mood"><b>Mood:</b> programando en pantuflas ☆</div>
+        </div>
+      </div>
+
+      <aside class="col col--der">
+        <div class="contadores">
+          <div class="contador"><span><a href="">8 Proyectos</a></span><span class="barrita barrita--80"><i></i></span></div>
+          <div class="contador"><span><a href="" target="_blank" rel="noopener">12 Notas</a></span><span class="barrita barrita--60"><i></i></span></div>
+          <div class="contador"><span><a href="">3 Comentarios</a></span><span class="barrita barrita--30"><i></i></span></div>
+          <div class="contador"><span><b>1 Videojuego secreto</b></span><span class="barrita barrita--10"><i></i></span></div>
+        </div>
+
+        <div class="reproductor">
+          <div class="reproductor__fila">
+            <div class="reproductor__portada">♫</div>
+            <div class="reproductor__info"><div class="reproductor__tema" id="tema">Narcisista por excelencia</div><div class="reproductor__lista" id="nombre-lista">PXNDX</div></div>
+          </div>
+          <div class="reproductor__fila reproductor__fila--controles">
+            <div class="reproductor__botones">
+              <button type="button" id="anterior" aria-label="Tema anterior">◀◀</button>
+              <button type="button" class="play" id="play" aria-label="Reproducir">▶</button>
+              <button type="button" id="siguiente" aria-label="Tema siguiente">▶▶</button>
+            </div>
+            <span class="reproductor__lista" id="tiempo">00:00</span>
+          </div>
+          <div class="progreso"><i id="progreso"></i></div>
+        </div>
+
+        <div>
+          <p class="subtitulo">Journal <a href="https://vanacode.neocities.org/" target="_blank" rel="noopener">(ver las 12 en Neocities)</a></p>
+          <ul class="lista-simple">
+            <li><a href="#" data-enlace="neocities" target="_blank" rel="noopener">Jerarquía visual en 5 minutos</a> <span>· 25 oct</span></li>
+            <li><a href="#" data-enlace="neocities" target="_blank" rel="noopener">Flexbox vs Grid, sin llorar</a> <span>· 18 oct</span></li>
+            <li><a href="#" data-enlace="neocities" target="_blank" rel="noopener">Apuntes de accesibilidad</a> <span>· 10 oct</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="subtitulo">Amigos conectados</p>
+          <div class="conectados">
+            <div class="conectado"><span class="conectado__punto"></span><div><b>[ Claude ] ~el robot~ ☆</b><em>¿ya arreglaste ese botón?</em></div></div>
+            <div class="conectado"><span class="conectado__punto"></span><div><b>ღ CSS ღ</b><em>..... ahhhhh no se puede centrar ese div</em></div></div>
+            <div class="conectado"><span class="conectado__punto"></span><div><b>°º¤ø,¸ Java ¸,ø¤º°</b><em>te odiaba pero aprendí a quererte</em></div></div>
+            <div class="conectado"><span class="conectado__punto"></span><div><b>**Bug del viernes**</b><em>...toy aquí desde el lunes xD</em></div></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="paneles">
+      <article class="panel">
+        <h2 class="panel__titulo">Actualizaciones recientes</h2>
+        <div class="panel__sub"><a href="proyectos.html">Ver todos los proyectos</a></div>
+        <div class="panel__cuerpo">
+          <div class="actualizacion"><div><a href="index.html">Silvana</a> subió una nota nueva: <a href="https://vanacode.neocities.org/" data-enlace="neocities" target="_blank" rel="noopener">Jerarquía visual</a><span>25 oct 2026, 11:42 p. m.</span></div><span class="miniatura">✎</span></div>
+          <div class="actualizacion"><div><a href="index.html">Silvana</a> terminó el proyecto <a href="proyecto.html?p=asistente">Asistente de estaciones</a><span>20 oct 2026, 3:15 a. m.</span></div><span class="miniatura">☀</span></div>
+          <div class="actualizacion"><div><a href="index.html">Silvana</a> agregó <a href="proyecto.html?p=portafolio">Este portafolio</a> a su Top 8<span>1 oct 2026, 9:03 a. m.</span></div><span class="miniatura">♥</span></div>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2 class="panel__titulo">Top 8 proyectos</h2>
+        <div class="panel__sub"><a href="proyectos.html">Ver los 8</a><a href="#" data-enlace="behance" target="_blank" rel="noopener">Casos en Behance</a></div>
+        <div class="panel__cuerpo top8" id="top8"></div>
+      </article>
+    </section>
+
+    <section class="panel comentarios">
+      <h2 class="panel__titulo">Comentarios (3)</h2>
+      <div class="panel__sub"><span class="aviso-ejemplo">Textos de ejemplo</span></div>
+      <div class="panel__cuerpo" data-comentarios>
+      </div>
+    </section>
+
+    <footer class="pie"><span>© 2026 · hecho por vanacode</span><span class="pie__redes"><a href="#" data-enlace="behance" target="_blank" rel="noopener">Behance</a><a href="#" data-enlace="github" target="_blank" rel="noopener">GitHub</a><a href="#" data-enlace="instagram" target="_blank" rel="noopener">Instagram</a><a href="#" data-enlace="tiktok" target="_blank" rel="noopener">TikTok</a></span><span>Se ve mejor en 1024x768 xD</span></footer>
+  </main>
+</div>
+
+<div class="aviso-msn" id="aviso-msn" role="status">
+  <div class="aviso-msn__barra"><span>Messenger</span><button type="button" id="cerrar-aviso" aria-label="Cerrar aviso">×</button></div>
+  <div class="aviso-msn__cuerpo"><img src="img/avatar-cara.png" alt=""><div><b>Silvana</b> acaba de iniciar sesión.<br><button type="button" data-abrir-chat>Abrir conversación</button></div></div>
+</div>
+
+<button type="button" class="burbuja-msn" id="burbuja-msn" hidden aria-label="Abrir chat con Silvana" title="Chatea con Silvana" data-abrir-chat><img src="img/avatar-pensativa.jpg" alt=""></button>
+
+<section class="msn" id="chat" hidden aria-label="Conversación con Silvana">
+  <div class="msn__barra"><span>.·:*¨☆ Silvana ☆¨*:·. ~ Los Malaventurados No Lloran... pero yo sí~</span><button type="button" class="msn__cerrar" id="cerrar-chat" aria-label="Cerrar chat">×</button></div>
+  <div class="msn__cuerpo">
+    <div class="msn__para">Para: <b>.·:*¨☆ Silvana ☆¨*:·.</b> <span id="nick-estado">(Ausente (programando))</span></div>
+    <div class="msn__principal">
+      <div class="historial" id="historial" aria-live="polite">
+        <div class="mensaje mensaje--silvana"><div class="mensaje__quien">Silvana dice:</div><p class="mensaje__texto">holaaa ☆ ¿vienes por un proyecto o a mandarme zumbidos?</p></div>
+      </div>
+      <div class="escribiendo" id="escribiendo"></div>
+      <div class="guinos" role="group" aria-label="Zumbido y guiños">
+        <button type="button" class="zumbido" data-guino="zumbido">Zumbido</button>
+        <button type="button" data-guino="beso">Beso</button>
+        <button type="button" data-guino="corazones">Corazones</button>
+        <button type="button" data-guino="risa">Carcajada</button>
+        <button type="button" data-guino="globo">Globo</button>
+        <button type="button" data-guino="guino">Guiño</button>
+      </div>
+      <form class="formulario" id="formulario-chat">
+        <label for="mensaje-chat" hidden>Tu mensaje</label>
+        <textarea id="mensaje-chat" placeholder="Escribe aquí..."></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <div class="msn__fotos"><img src="img/foto-emo.jpg" alt="Foto de Silvana" id="foto-silvana"><img src="img/gato.jpg" alt="Foto del visitante: un gato siamés" class="visitante"></div>
+  </div>
+</section>
+
+  <script src="js/datos.js"></script>
+  <script src="js/comun.js"></script>
+  <script src="js/perfil.js"></script>
+</body>
+</html>

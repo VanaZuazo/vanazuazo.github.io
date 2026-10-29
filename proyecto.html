@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Silvana Guardia :: Proyecto</title>
+  <meta name="description" content="Caso de estudio de un proyecto de Silvana Guardia.">
+  <link rel="icon" href="img/avatar-cara.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div class="sitio">
+
+  <header>
+    <div class="barra-sup">
+      <div class="envoltura">
+        <div class="logo">silvi<span>5</span></div>
+        <form class="buscador" id="buscador"><label for="buscar">Buscar:</label><input id="buscar" type="text"><button type="submit">Ir</button></form>
+        <div class="bienvenida">Bienvenid@, <b>visitante</b></div>
+      </div>
+    </div>
+    <nav class="pestanas" aria-label="Secciones del perfil"><div class="envoltura">
+      <a href="index.html" data-pestana="perfil">Perfil</a><a href="proyectos.html" data-pestana="proyectos" class="is-activa" aria-current="page">Proyectos</a><a href="servicios.html" data-pestana="servicios">Servicios</a><a href="#" data-enlace="neocities" target="_blank" rel="noopener">Notas ↗</a>
+    </div></nav>
+  </header>
+
+
+  <main class="envoltura vista">
+
+    <div class="titulo-perfil"><h1 id="caso-titulo">Proyecto</h1><small id="caso-tipo"></small></div>
+    <div class="caso">
+      <div class="caso__lado">
+        <div class="caso__foto" id="caso-foto"></div>
+        <div class="etiquetas" id="caso-etiquetas"></div>
+        <div class="caso__enlaces" id="caso-enlaces"></div>
+        <a href="proyectos.html">◀ Volver a proyectos</a>
+      </div>
+      <div class="caso__texto">
+        <p class="caso__resumen" id="caso-resumen"></p>
+        <div id="caso-bloques" class="caso__texto"></div>
+        <nav class="caso__nav" aria-label="Otros proyectos"><a id="caso-anterior" href="proyectos.html"></a><a id="caso-siguiente" href="proyectos.html"></a></nav>
+      </div>
+    </div>
+
+    <footer class="pie"><span>© 2026 · hecho por vanacode</span><span class="pie__redes"><a href="#" data-enlace="behance" target="_blank" rel="noopener">Behance</a><a href="#" data-enlace="github" target="_blank" rel="noopener">GitHub</a><a href="#" data-enlace="instagram" target="_blank" rel="noopener">Instagram</a><a href="#" data-enlace="tiktok" target="_blank" rel="noopener">TikTok</a></span><span>Se ve mejor en 1024x768 xD</span></footer>
+  </main>
+</div>
+
+<div class="aviso-msn" id="aviso-msn" role="status">
+  <div class="aviso-msn__barra"><span>Messenger</span><button type="button" id="cerrar-aviso" aria-label="Cerrar aviso">×</button></div>
+  <div class="aviso-msn__cuerpo"><img src="img/avatar-cara.png" alt=""><div><b>Silvana</b> acaba de iniciar sesión.<br><button type="button" data-abrir-chat>Abrir conversación</button></div></div>
+</div>
+
+<button type="button" class="burbuja-msn" id="burbuja-msn" hidden aria-label="Abrir chat con Silvana" title="Chatea con Silvana" data-abrir-chat><img src="img/avatar-pensativa.jpg" alt=""></button>
+
+<section class="msn" id="chat" hidden aria-label="Conversación con Silvana">
+  <div class="msn__barra"><span>.·:*¨☆ Silvana ☆¨*:·. ~ Los Malaventurados No Lloran... pero yo sí O.o ~</span><button type="button" class="msn__cerrar" id="cerrar-chat" aria-label="Cerrar chat">×</button></div>
+  <div class="msn__cuerpo">
+    <div class="msn__para">Para: <b>.·:*¨☆ Silvana ☆¨*:·.</b> <span id="nick-estado">(Ausente (programando))</span></div>
+    <div class="msn__principal">
+      <div class="historial" id="historial" aria-live="polite">
+        <div class="mensaje mensaje--silvana"><div class="mensaje__quien">Silvana dice:</div><p class="mensaje__texto">holaaa ☆ ¿vienes por un proyecto o a mandarme zumbidos?</p></div>
+      </div>
+      <div class="escribiendo" id="escribiendo"></div>
+      <div class="guinos" role="group" aria-label="Zumbido y guiños">
+        <button type="button" class="zumbido" data-guino="zumbido">Zumbido</button>
+        <button type="button" data-guino="beso">Beso</button>
+        <button type="button" data-guino="corazones">Corazones</button>
+        <button type="button" data-guino="risa">Carcajada</button>
+        <button type="button" data-guino="globo">Globo</button>
+        <button type="button" data-guino="guino">Guiño</button>
+      </div>
+      <form class="formulario" id="formulario-chat">
+        <label for="mensaje-chat" hidden>Tu mensaje</label>
+        <textarea id="mensaje-chat" placeholder="Escribe aquí..."></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <div class="msn__fotos"><img src="img/foto-emo.jpg" alt="Foto de Silvana" id="foto-silvana"><img src="img/gato.jpg" alt="Foto del visitante: un gato siamés" class="visitante"></div>
+  </div>
+</section>
+
+  <script src="js/datos.js"></script>
+  <script src="js/comun.js"></script>
+  <script src="js/proyecto.js"></script>
+</body>
+</html>
